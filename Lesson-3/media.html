@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Media and iframes</title>
+</head>
+
+<body>
+	<div>
+		<h3>Video that plays automatically, without sound and on loop</h3>
+		<video autoplay muted loop>
+			<source src="./media/video.mp4" type="video/mp4" />
+			Your browser does not support video playback
+		</video>
+	</div>
+
+	<div>
+		<h3>Video with controls</h3>
+		<video src="./media/video.mp4" controls preload="auto"></video>
+
+	</div>
+	<div>
+		<h3>Audio</h3>
+		<audio src="./media/audio.mp3" autoplay controls loop muted></audio>
+
+	</div>
+
+	<div>
+		<audio controls>
+			<source src="audio.ogg" type="audio/ogg">
+			<source src="./media/audio.mp3" type="audio/mpeg">
+			Your browser does not support the audio tag.
+		</audio>
+	</div>
+
+	<div>
+		<h3>Iframe</h3>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/IsXEVQRaTX8?start=30"
+			title="YouTube video player" frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen></iframe>
+	</div>
+	<div>
+		<iframe src="https://www.google.com/"></iframe>
+	</div>
+</body>
+
+</html>
