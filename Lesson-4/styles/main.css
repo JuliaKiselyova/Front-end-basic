@@ -1,0 +1,154 @@
+
+#h3-first {
+    font-size: 50px;
+}
+
+h3 {
+    color: blue;
+    background-color: blanchedalmond;
+    font-size: 30px;
+    /* margin: 50px 0px 50px 0px;
+    padding: 50px 0px 50px 0px; */
+}
+h3 {
+    color: black;
+}
+h3 {
+    color: green;
+}
+
+/* p {
+    font-size: 25px;
+    width: 500px;
+    background-color: cadetblue;
+} */
+
+a {
+    font-size: 40px;
+    color:red;
+}
+
+.highlight.one.second {
+    color: tomato;
+}
+
+.highlight {
+    color: pink;
+    font-size: 40px;
+}
+
+.another {
+    color:blueviolet;
+    margin: 50px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
+}
+
+input[type="text"] {
+    background-color:aqua;
+}
+
+input[type="password"] {
+    background-color:yellow;
+}
+
+a[href*="https://example.com"] {
+    color:blue;
+}
+
+img[src^="./images/"] {
+    border: 1px solid gray;
+}
+
+button[data-action~="delete"] {
+    background-color: red;
+}
+
+[class~="highlight"] {
+    background-color: yellow;
+}
+
+img[src$=".jpg"] {
+    display:block;
+}
+
+
+a:link {
+    color:blueviolet
+}
+
+a:visited {
+    color:darkslategray;
+}
+
+a:active {
+    color: cornflowerblue;
+}
+
+button:hover {
+    color:deeppink ;
+    background-color: blanchedalmond;
+}
+
+input[type="text"]:focus {
+    background-color: cornflowerblue;
+}
+
+/* li {
+    font-size: 30px;
+    color:blue;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    color:violet
+}
+
+li:nth-child(3) {
+    color:red;
+}
+
+li:nth-child(2n+1) {
+    color: red;
+} */
+
+
+h4 {
+    font-size: 25px;
+}
+h5 {
+    font-size: 15px;
+}
+h4, h5 {
+    font-weight: 300;
+    color: slateblue;
+}
+
+h3.highlight#h3-second {
+    color: chartreuse;
+}
+
+/* X Y */
+div.content p {
+    color:chocolate
+}
+
+/* X > Y */
+
+ol>li{
+    color:green;
+}
+/* X + Y */
+div + p {
+    color:green;
+}
+/* X ~ Y */
+div.exact~p {
+    color: red;
+}
+
+span {
+    color:yellow
+}
