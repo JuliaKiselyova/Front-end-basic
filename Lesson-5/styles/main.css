@@ -1,0 +1,43 @@
+h1 {
+    color: blue;
+    font-size: 100px;
+}
+
+.title.title-4 {
+    color: red;
+}
+
+h3.title-4 {
+    color:aqua;
+}
+
+.title,h2 {
+    color:blueviolet;
+    font-size:30px;
+}
+
+#conclusion_p {
+    font-size:25px;
+    color:steelblue;
+}
+
+.content:nth-child(1) {
+    background-color: blue;
+}
+
+.content:nth-child(2) {
+    background-color: teal;
+    width:510px;
+    padding: 20px;
+    border: 2px;
+    border-style: solid;
+    margin:5px;
+}
+
+.content:nth-child(3) {
+    background-color: purple;
+}
+
+img {
+    display: block;
+}

@@ -1,0 +1,18 @@
+External
+<link> - tag for connecting external files.
+
+Internal
+<style> - a tag for inserting styles into an html document. 
+    
+
+Inline CSS 
+[style] - attribute for writing styles inside the html tag. 
+
+
+basic selectors 
+-id -100 
+-class -10 
+-type -1 
+-attribute -10 
+-universal * -0
+
